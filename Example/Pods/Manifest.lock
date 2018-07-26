@@ -1,0 +1,16 @@
+PODS:
+  - RateItControl (0.1.0)
+
+DEPENDENCIES:
+  - RateItControl (from `../`)
+
+EXTERNAL SOURCES:
+  RateItControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RateItControl: 9e93af9a7b661fab5eb786ff68f2ff48ad35e428
+
+PODFILE CHECKSUM: d0fd2a6fa82ea6be4908141d78e603a1551f24f1
+
+COCOAPODS: 1.4.0

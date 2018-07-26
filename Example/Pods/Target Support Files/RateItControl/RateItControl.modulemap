@@ -1,0 +1,6 @@
+framework module RateItControl {
+  umbrella header "RateItControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
