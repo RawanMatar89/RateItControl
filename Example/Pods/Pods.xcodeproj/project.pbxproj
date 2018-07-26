@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D1CC4FE5F536C5ED028B84D2AB03297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2E70EF8677E15BBB7EBC5D5C30165160 /* Pods-RateItControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA5E0BD2AB8F40CC37D5BF76B0827C6 /* Pods-RateItControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E658D0AB5AA59AF49DDB1C1626ACA4F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B4A2845E4DC6B633D27A9C4F071FC9 /* ReplaceMe.swift */; };
 		742EC8E443125270C62F731A85B0ADD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		81EF0B5AF63C05FC2772867269DF688C /* RateItControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C28E81B21D09961EE1F5672647365810 /* RateItControl-dummy.m */; };
+		8CB201F02109A8E90026C353 /* RateItControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB201EF2109A8E90026C353 /* RateItControl.swift */; };
 		9603B3AB7326B8AA2BF3F9E2C2D607D5 /* RateItControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D5F247D714B16BAC5B2C66087D0129 /* RateItControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D71F3EE939F5D126B67156576FB9EA2 /* Pods-RateItControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD4E98FED910E229A58AA35C779A544 /* Pods-RateItControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD443B7F886654F76FC1F9894B858C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -35,7 +35,7 @@
 		13E480C9E2BD84616982D1BFEAABBEDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17071F7DC5D869CCA8484012ACA50127 /* Pods-RateItControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RateItControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1810A868D43DB099D7ADC548C362DDE6 /* RateItControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateItControl-prefix.pch"; sourceTree = "<group>"; };
-		18B61CA71C1E76F8499036199636B0B1 /* Pods_RateItControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RateItControl_Tests.framework; path = "Pods-RateItControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B61CA71C1E76F8499036199636B0B1 /* Pods_RateItControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RateItControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E91E27BD78A4C19A4BD783D5F9ADFC /* Pods-RateItControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RateItControl_Tests.modulemap"; sourceTree = "<group>"; };
 		3012FB3AC52517747DA09930E7D600CB /* Pods-RateItControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateItControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3909F66EFC6F0514981FF4F33A426BDA /* Pods-RateItControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RateItControl_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -45,25 +45,26 @@
 		5BDB584C65070191219A2D913F30A3BE /* Pods-RateItControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateItControl_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B35C893F8F22677C36B5653F78C8144 /* Pods-RateItControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateItControl_Example-resources.sh"; sourceTree = "<group>"; };
-		70B4A2845E4DC6B633D27A9C4F071FC9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RateItControl/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		72EAF3784D48E434CA44A9B7040ED5FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75F09AF857594E4AAE1D5F46E917C9EE /* Pods-RateItControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateItControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CD4E98FED910E229A58AA35C779A544 /* Pods-RateItControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RateItControl_Example-umbrella.h"; sourceTree = "<group>"; };
 		7F6B07AD1CB14E6FDF03EF2B1C656864 /* Pods-RateItControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateItControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		809B1ADE92BF0CE4B439966C36A79B14 /* Pods-RateItControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateItControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8122258CA65F7046F8AE7AC3641ABC55 /* Pods_RateItControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RateItControl_Example.framework; path = "Pods-RateItControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8122258CA65F7046F8AE7AC3641ABC55 /* Pods_RateItControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RateItControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86725C0E4616AE14F33E7EBFCC7E6E29 /* RateItControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RateItControl.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A33EFAEB24CC6C3480CF8BA048EA9A26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8CB201EF2109A8E90026C353 /* RateItControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RateItControl.swift; path = RateItControl/Classes/RateItControl.swift; sourceTree = "<group>"; };
+		8CB201F22109ADBA0026C353 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../RateItControl/Assets/Images.xcassets; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A33EFAEB24CC6C3480CF8BA048EA9A26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD29558FD7F7C903BFF484824A05461F /* Pods-RateItControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RateItControl_Example.modulemap"; sourceTree = "<group>"; };
 		B68F9B0E0CFFACAEDD102964498CDA78 /* Pods-RateItControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateItControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8DDBDB5EA184892013FCEDB49B6332C /* Pods-RateItControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateItControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD1292B2C48BF50BB46B447385FE53B7 /* Pods-RateItControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateItControl_Tests-resources.sh"; sourceTree = "<group>"; };
 		C28E81B21D09961EE1F5672647365810 /* RateItControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RateItControl-dummy.m"; sourceTree = "<group>"; };
-		C77699A605DE9F0A62546F9BF29739BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C92F25EA616694890B354FEF0AE699B2 /* RateItControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RateItControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C77699A605DE9F0A62546F9BF29739BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C92F25EA616694890B354FEF0AE699B2 /* RateItControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RateItControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7C6C8DDA138EC844A05F3A9E7CED79C /* Pods-RateItControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RateItControl_Example-dummy.m"; sourceTree = "<group>"; };
-		E63F688418D210811F3A53EC5A2D9452 /* RateItControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RateItControl.framework; path = RateItControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63F688418D210811F3A53EC5A2D9452 /* RateItControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RateItControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD3300B742FBB223D0159267A3FF871 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +105,14 @@
 				ECA3DBA3627A71D19F868CE13E305A65 /* Products */,
 				F95E49BA43E1E367DD6524F8256BB9A3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8CB201F12109ABFA0026C353 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8CB201F22109ADBA0026C353 /* Images.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		A3FF1807B1A86BBB0BD1B1390CF9373E /* Development Pods */ = {
@@ -153,7 +162,8 @@
 		D07411D73F3F5B934A914B7DC4E96117 /* RateItControl */ = {
 			isa = PBXGroup;
 			children = (
-				70B4A2845E4DC6B633D27A9C4F071FC9 /* ReplaceMe.swift */,
+				8CB201F12109ABFA0026C353 /* Assets */,
+				8CB201EF2109A8E90026C353 /* RateItControl.swift */,
 				A4E9560B50DD5113BC79F13594765635 /* Pod */,
 				F0D7FE6665D1AF63430A78F5B604D842 /* Support Files */,
 			);
@@ -309,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -336,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81EF0B5AF63C05FC2772867269DF688C /* RateItControl-dummy.m in Sources */,
-				3E658D0AB5AA59AF49DDB1C1626ACA4F /* ReplaceMe.swift in Sources */,
+				8CB201F02109A8E90026C353 /* RateItControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +529,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
